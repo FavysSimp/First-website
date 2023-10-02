@@ -1,0 +1,349 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Martian+Mono:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@900&family=Poppins:wght@300&display=swap');
+
+* {
+    color: rgb(37, 37, 37);
+    font-size: 16px;
+    line-height: 150%;
+    font-family: Martian Mono;
+    box-sizing: border-box;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+    background-color:rgba(208, 204, 208, .5);
+}
+
+.header {
+    background-color: rgba(0, 0, 0, .3);
+    background-image: url(foodpics/foodpic1.jpg);
+    background-blend-mode: multiply;
+}
+
+.nav ul {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    padding-top: 9px;
+    padding-bottom: 9px;
+}
+
+
+.nav a {
+    font-size: x-large;
+    font-family: JetBrains Mono;
+    text-decoration: none;
+    color: rgba(255, 255, 255, 1);
+}
+
+.nav a:hover {
+    border-bottom: 4px solid wheat;
+}
+
+.nav {
+    position: relative;
+    padding-top: 10px;
+}
+
+.no-h1 {
+    height: 100px;
+}
+
+.main-body {
+    margin-bottom: 0;
+}
+
+.clam-logo {
+    font-size: 3.5em;
+    font-family: 'Heebo', sans-serif;
+    text-align: center;
+    line-height: 100px;
+    color:rgba(255, 255, 255, 1);
+    margin-bottom: 0;
+    height: 120px;
+}
+
+.food {
+    margin-top: 10px;
+    padding-left: 40px;
+}
+
+.about {
+    width: 50dvw;
+}
+
+.h2-headers {
+    font-size: 34px;
+    font-family: Poppins;
+}
+
+.sub-stuff {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 0;
+}
+
+.paragraphs {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.h2-images {
+    width: 50dvw;
+}
+
+.footer {
+    margin-top: 0;
+    background-color: rgb(163, 216, 233);
+}
+
+.footer .clam-logo {
+    padding-left: 20px;
+    font-size: 2em;
+}
+
+.footer .clam-logo:hover {
+    color: rgba(10, 10, 74, 0.769);
+}
+
+.footer a {
+    text-decoration: none;
+}
+
+.footer ul {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+}
+
+.footer li {
+    padding-right: 29px;
+}
+
+.social-media-tags .icons {
+    font-size: 42px;
+    color: white;
+}
+
+.icons:hover {
+    color:  rgba(10, 10, 74, 0.769);
+}
+
+
+
+
+
+/* form code */
+
+.food-background {
+    background-color: rgba(0, 0, 0, .5);
+    background-image: url(foodpics/pexels-krisztina-papp-2402503.jpg);
+    background-blend-mode: multiply;
+    background-size: cover;
+}
+
+.join-us-text {
+    padding: 70px 0 20px;
+    text-align: center;
+    color: white;
+}
+
+.field {
+    display: flex;
+    justify-content: center;
+}
+
+.fieldset {
+    width: 600px;
+    margin: 5%;
+    background-color: rgb(41, 38, 41);
+    border-radius: 5px;
+}
+
+.accessible-form {
+    display: grid;
+    justify-content: center;
+}
+
+legend {
+    border: 1.5px solid #11111199;
+    border-radius: 9px;
+    background-color: rgb(145, 143, 143);
+    padding: 5px 15px;
+    margin-left: 80px;
+}
+
+.label {
+    font-family: JetBrains Mono;
+    display: grid;
+    justify-content: center;
+    color:antiquewhite;
+}
+
+.input {
+    display: block;
+    margin: auto;
+    border-radius: 5px;
+}
+
+.answerables {
+    margin: 2%;
+}
+
+.comments {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.checkbox-main {
+    display: flex;
+    justify-content: center;
+    width: 300px;
+}
+
+.checkbox {
+    font-size: 80%;
+    color: antiquewhite;
+}
+
+.the-tiny-clickable-checkbox {
+    width: 10%;
+    margin-left: 3em;
+    margin-right: 10px;
+}
+
+.submit-btn {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 10%;
+}
+
+button {
+    cursor: pointer;
+    padding: 4px 30px;
+    border-radius: 8px;
+    box-shadow: 2px 2px 2px 1px rgb(131, 131, 219);
+}
+
+button:hover {
+
+    color: whitesmoke;
+    background-color:rgb(101, 95, 95);
+}
+
+.join-us-footer {
+    background-color: rgb(101, 95, 95);
+}
+
+
+/* hot code */
+
+.hot-body {
+    background-color: rgb(255, 255, 255);
+}
+
+
+
+.hot-section {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 50dvh 50dvh;
+    gap: 20px;
+    margin: 20px 70px;
+    justify-content: center;
+}
+
+.hot-section a {
+    color: wheat;
+    text-decoration: none;
+}
+
+.hot-section a:hover {
+    border-bottom: 3px solid white;
+    color: white;
+}
+
+.hot-section-image1 {
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    background-image: url(foodpics/pexels-nishant-aneja-2955819.jpg);
+    background-color: rgba(0, 0, 0, .5);
+    background-blend-mode: multiply;
+    background-size: cover;
+}
+
+.hot-section-image2 {
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    background-image: url(foodpics/pexels-cats-coming-1907227.jpg);
+    background-color: rgba(0, 0, 0, .5);
+    background-blend-mode: multiply;
+    background-size: cover;
+}
+
+.hot-section-image3 {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    background-image: url(foodpics/pexels-mona-sabha-cabrera-806457.jpg);
+    background-color: rgba(0, 0, 0, .5);
+    background-blend-mode: multiply;
+    background-size: cover;
+}
+
+.hot-section-image4 {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    background-image: url(foodpics/pexels-alexander-grey-3779937.jpg);
+    background-color: rgba(0, 0, 0, .5);
+    background-blend-mode: multiply;
+    background-size: cover;
+}
+
+.hot-section-image5 {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    background-image: url(foodpics/pexels-elle-hughes-1660030.jpg);
+    background-color: rgba(0, 0, 0, .5);
+    background-blend-mode: multiply;
+    background-size: cover;
+}
+
+.hot-section-image6 {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    background-image: url(foodpics/pexels-ash-376464.jpg);
+    background-color: rgba(0, 0, 0, .5);
+    background-blend-mode: multiply;
+    background-size: cover;
+}
+
+/* more code */
+.more-section a {
+    text-decoration: none;
+    font-size: 2em;
+}
+
+.links {
+    height: 50dvh;
+    width: 100dvw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.inner-div {
+    background-color: white;
+}

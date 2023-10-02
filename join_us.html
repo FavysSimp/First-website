@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en-US">
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="styles.css">
+        <title>Join the Community</title>
+    </head>
+    <body class="html-body clams-form">
+
+        <header class="header no-h1">
+            <nav class="nav">
+                <ul>
+                    <li>
+                        <a href="home.html">home</a>
+                    </li>
+                    <li>
+                        <a href="hot.html">hot</a>
+                    </li>
+                    <li>
+                        <a href="join_us.html">join us</a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+
+        <div class="food-background">
+            <div class="join-us-text">
+                Join our community today and gain access
+                to the best and most glizzyglizenberg foods
+                all cooked up and ready to eat!
+            </div>
+
+            <div>
+                <field class="field" action="/form-handling-url" method="post">
+                    <fieldset class="fieldset">
+                        <legend>Join Us</legend>
+                        <div class="accessible-form">
+
+                            <div class="answerables">
+                                <label class="label" for="firstname">First name:</label>
+                                <input class="input" type="text" id="firstname" name="first_name">
+                            </div>
+
+                            <div class="answerables">
+                                <label class="label" for="lastname">Last name:</label>
+                                <input class="input" type="text" id="lastname" name="last_name">
+                            </div>
+
+                            <div class="answerables">
+                                <label class="label" for="email">Email:</label>
+                                <input class="input" type="email" id="email" name="email_address">
+                            </div>
+
+                            <div class="answerables comments">
+                                <label class="label" for="fav_food">Your kind of meal</label>
+                                <textarea class="input" id="fav_food" name="favorite_food"></textarea>
+                            </div>
+
+                            <div class="answerables checkbox-main">
+                                <input class="the-tiny-clickable-checkbox" type="checkbox" id="glizzies" name="get_emails">
+                                <label class="checkbox" for="glizzies">I'd like emails of glizzies</label>
+                            </div>
+
+                            <div class="submit-btn">
+                                <button type="submit">Munch</button>
+                            </div>
+
+                        </div>
+                    </fieldset>
+                </field>
+            </div>
+        </div>
+
+        <footer class="sub-stuff footer join-us-footer">
+            <div>
+                <a class="clam-logo" href="home.html" target="_blank">
+                    CLAMS
+                </a>
+            </div>
+            <div class="social-media-tags">
+                <ul>
+                    <li>
+                        <a href="https://www.instagram.com" target="_blank">
+                            <ion-icon class="icons" name="logo-instagram"></ion-icon>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://twitter.com" target="_blank">
+                            <ion-icon class="icons" name="logo-twitter"></ion-icon>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.facebook.com" target="_blank">
+                            <ion-icon class="icons" name="logo-facebook"></ion-icon>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </footer>
+
+        <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+        <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+
+
+    </body>
+</html>
